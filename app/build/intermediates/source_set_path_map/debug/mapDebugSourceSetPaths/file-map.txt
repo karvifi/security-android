@@ -1,0 +1,65 @@
+com.fortress.hypervisor.app-activity-compose-1.7.2-0 C:\Users\karti\.gradle\caches\8.13\transforms\00a2fcd155fcdb812d8eff9e3c7158bc\transformed\activity-compose-1.7.2\res
+com.fortress.hypervisor.app-lifecycle-runtime-ktx-2.6.1-1 C:\Users\karti\.gradle\caches\8.13\transforms\063ce2d34748482bc5df7c3e2844b32e\transformed\lifecycle-runtime-ktx-2.6.1\res
+com.fortress.hypervisor.app-sqlite-framework-2.3.0-2 C:\Users\karti\.gradle\caches\8.13\transforms\07b4e84e9923b76a5c8727418fe6b0d6\transformed\sqlite-framework-2.3.0\res
+com.fortress.hypervisor.app-work-runtime-ktx-2.8.1-3 C:\Users\karti\.gradle\caches\8.13\transforms\0bff622399fac5a45ac132e180b5c8de\transformed\work-runtime-ktx-2.8.1\res
+com.fortress.hypervisor.app-navigation-runtime-2.7.0-4 C:\Users\karti\.gradle\caches\8.13\transforms\1454cb41bae5a602621ea5e4d7797903\transformed\navigation-runtime-2.7.0\res
+com.fortress.hypervisor.app-runtime-saveable-release-5 C:\Users\karti\.gradle\caches\8.13\transforms\20a4028012c5628ce7bfb7c3a9e0f6bb\transformed\runtime-saveable-release\res
+com.fortress.hypervisor.app-startup-runtime-1.1.1-6 C:\Users\karti\.gradle\caches\8.13\transforms\21367bf990fa0e45921b645e610822b2\transformed\startup-runtime-1.1.1\res
+com.fortress.hypervisor.app-ui-geometry-release-7 C:\Users\karti\.gradle\caches\8.13\transforms\23d06eb7144dfc6a8ccc18106680e0ca\transformed\ui-geometry-release\res
+com.fortress.hypervisor.app-lifecycle-process-2.6.1-8 C:\Users\karti\.gradle\caches\8.13\transforms\243cc8fdaaabc4abc4a08b4256db9dda\transformed\lifecycle-process-2.6.1\res
+com.fortress.hypervisor.app-lifecycle-runtime-2.6.1-9 C:\Users\karti\.gradle\caches\8.13\transforms\25017dc08943648ad4a99097a188eef2\transformed\lifecycle-runtime-2.6.1\res
+com.fortress.hypervisor.app-savedstate-1.2.1-10 C:\Users\karti\.gradle\caches\8.13\transforms\2e65714e9909b2f33a4d3bcbab700484\transformed\savedstate-1.2.1\res
+com.fortress.hypervisor.app-profileinstaller-1.3.0-11 C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\res
+com.fortress.hypervisor.app-core-runtime-2.2.0-12 C:\Users\karti\.gradle\caches\8.13\transforms\30b012ca483db75dc1eb7c98b0649350\transformed\core-runtime-2.2.0\res
+com.fortress.hypervisor.app-runtime-release-13 C:\Users\karti\.gradle\caches\8.13\transforms\30bda054d0496e866642cdbc98c46f93\transformed\runtime-release\res
+com.fortress.hypervisor.app-lifecycle-service-2.6.1-14 C:\Users\karti\.gradle\caches\8.13\transforms\311832956a4a9863ff357071f8715e1a\transformed\lifecycle-service-2.6.1\res
+com.fortress.hypervisor.app-activity-ktx-1.7.2-15 C:\Users\karti\.gradle\caches\8.13\transforms\35a4f458749a9d30b7eace96b59fb375\transformed\activity-ktx-1.7.2\res
+com.fortress.hypervisor.app-material-icons-core-release-16 C:\Users\karti\.gradle\caches\8.13\transforms\3d43e7dc4b7539f31636c2317d321e7f\transformed\material-icons-core-release\res
+com.fortress.hypervisor.app-appcompat-resources-1.6.1-17 C:\Users\karti\.gradle\caches\8.13\transforms\3f6c81434a7a34e56d09eda7a627455f\transformed\appcompat-resources-1.6.1\res
+com.fortress.hypervisor.app-foundation-layout-release-18 C:\Users\karti\.gradle\caches\8.13\transforms\40af0e3ef28ad65f926e4b4807a9c319\transformed\foundation-layout-release\res
+com.fortress.hypervisor.app-lifecycle-livedata-2.6.1-19 C:\Users\karti\.gradle\caches\8.13\transforms\42cb9cca130f9effd66ee7a931ac9a1b\transformed\lifecycle-livedata-2.6.1\res
+com.fortress.hypervisor.app-activity-1.7.2-20 C:\Users\karti\.gradle\caches\8.13\transforms\4969ea3e4910c1412500db0cb9dee6fa\transformed\activity-1.7.2\res
+com.fortress.hypervisor.app-savedstate-ktx-1.2.1-21 C:\Users\karti\.gradle\caches\8.13\transforms\4b57cd5b25e04f2ed3f1575a3975ab48\transformed\savedstate-ktx-1.2.1\res
+com.fortress.hypervisor.app-ui-release-22 C:\Users\karti\.gradle\caches\8.13\transforms\5b0c84c0a4eb8556b89d966eb3197e11\transformed\ui-release\res
+com.fortress.hypervisor.app-customview-poolingcontainer-1.0.0-23 C:\Users\karti\.gradle\caches\8.13\transforms\6353ba7dc9e42a1732c16a7f41e49e3d\transformed\customview-poolingcontainer-1.0.0\res
+com.fortress.hypervisor.app-ui-unit-release-24 C:\Users\karti\.gradle\caches\8.13\transforms\686420ba2dc0d34585df1b0ac148f064\transformed\ui-unit-release\res
+com.fortress.hypervisor.app-annotation-experimental-1.3.0-25 C:\Users\karti\.gradle\caches\8.13\transforms\6a811ab32530f205529170638bd8b2fd\transformed\annotation-experimental-1.3.0\res
+com.fortress.hypervisor.app-lifecycle-livedata-core-2.6.1-26 C:\Users\karti\.gradle\caches\8.13\transforms\6bfe2ab18c7f2210421e5c407fa93f84\transformed\lifecycle-livedata-core-2.6.1\res
+com.fortress.hypervisor.app-lifecycle-viewmodel-savedstate-2.6.1-27 C:\Users\karti\.gradle\caches\8.13\transforms\7b9a2ee7eb5f38b393bc3998ac8d5d83\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+com.fortress.hypervisor.app-room-runtime-2.5.0-28 C:\Users\karti\.gradle\caches\8.13\transforms\7c1ef197d9b0bd358da97396e2eb05bd\transformed\room-runtime-2.5.0\res
+com.fortress.hypervisor.app-foundation-release-29 C:\Users\karti\.gradle\caches\8.13\transforms\7ea7dd6d43e8839b03efcb72a1c1a402\transformed\foundation-release\res
+com.fortress.hypervisor.app-lifecycle-viewmodel-ktx-2.6.1-30 C:\Users\karti\.gradle\caches\8.13\transforms\7f653fee9e07d5eab57718c8e92d5701\transformed\lifecycle-viewmodel-ktx-2.6.1\res
+com.fortress.hypervisor.app-ui-util-release-31 C:\Users\karti\.gradle\caches\8.13\transforms\8056d6e2d2051e8548dc37fd262731af\transformed\ui-util-release\res
+com.fortress.hypervisor.app-fragment-1.3.6-32 C:\Users\karti\.gradle\caches\8.13\transforms\8949d1e543bead129847cb12683feeae\transformed\fragment-1.3.6\res
+com.fortress.hypervisor.app-navigation-runtime-ktx-2.7.0-33 C:\Users\karti\.gradle\caches\8.13\transforms\8b9c4fc31df520841d4223e878caa8b0\transformed\navigation-runtime-ktx-2.7.0\res
+com.fortress.hypervisor.app-ui-graphics-release-34 C:\Users\karti\.gradle\caches\8.13\transforms\8bbdfc720906a042f32687e07d662a0d\transformed\ui-graphics-release\res
+com.fortress.hypervisor.app-biometric-1.1.0-35 C:\Users\karti\.gradle\caches\8.13\transforms\8cf122e7d9681916449955f56be7f897\transformed\biometric-1.1.0\res
+com.fortress.hypervisor.app-sqlite-2.3.0-36 C:\Users\karti\.gradle\caches\8.13\transforms\901e7ce8032df6326f45aca35a1f9966\transformed\sqlite-2.3.0\res
+com.fortress.hypervisor.app-material-ripple-release-37 C:\Users\karti\.gradle\caches\8.13\transforms\94d29334cc14de27033a9575268bf90e\transformed\material-ripple-release\res
+com.fortress.hypervisor.app-animation-release-38 C:\Users\karti\.gradle\caches\8.13\transforms\978416ce5bfefecf68878bdd69c315b1\transformed\animation-release\res
+com.fortress.hypervisor.app-appcompat-1.6.1-39 C:\Users\karti\.gradle\caches\8.13\transforms\a0372224828fd74f3136d15e6ca8104e\transformed\appcompat-1.6.1\res
+com.fortress.hypervisor.app-lifecycle-livedata-ktx-2.6.1-40 C:\Users\karti\.gradle\caches\8.13\transforms\b14ce6e4e94581212b103af892e6c4d2\transformed\lifecycle-livedata-ktx-2.6.1\res
+com.fortress.hypervisor.app-lifecycle-viewmodel-2.6.1-41 C:\Users\karti\.gradle\caches\8.13\transforms\b173d9a130758f1302a7f5eff4c0ad32\transformed\lifecycle-viewmodel-2.6.1\res
+com.fortress.hypervisor.app-animation-core-release-42 C:\Users\karti\.gradle\caches\8.13\transforms\bdf521107ae763477c14b19f7b0d15dc\transformed\animation-core-release\res
+com.fortress.hypervisor.app-security-crypto-1.1.0-alpha06-43 C:\Users\karti\.gradle\caches\8.13\transforms\c11af5be687157666a2943b2de8cea99\transformed\security-crypto-1.1.0-alpha06\res
+com.fortress.hypervisor.app-lifecycle-livedata-core-ktx-2.6.1-44 C:\Users\karti\.gradle\caches\8.13\transforms\d031e1c07bd7c16240be6ce48f056b16\transformed\lifecycle-livedata-core-ktx-2.6.1\res
+com.fortress.hypervisor.app-emoji2-1.4.0-45 C:\Users\karti\.gradle\caches\8.13\transforms\d25aedf59cb3999c3581e017b98a8b92\transformed\emoji2-1.4.0\res
+com.fortress.hypervisor.app-emoji2-views-helper-1.4.0-46 C:\Users\karti\.gradle\caches\8.13\transforms\d38eecb0c3daa41abc87a17440d36512\transformed\emoji2-views-helper-1.4.0\res
+com.fortress.hypervisor.app-core-1.10.1-47 C:\Users\karti\.gradle\caches\8.13\transforms\dc4a89fbdaa5d7e28fc8036f8991380a\transformed\core-1.10.1\res
+com.fortress.hypervisor.app-navigation-common-2.7.0-48 C:\Users\karti\.gradle\caches\8.13\transforms\dde305a3312d88f980580443ea347347\transformed\navigation-common-2.7.0\res
+com.fortress.hypervisor.app-navigation-compose-2.7.0-49 C:\Users\karti\.gradle\caches\8.13\transforms\e2bb1945f2864bfb4ae49c87d450c244\transformed\navigation-compose-2.7.0\res
+com.fortress.hypervisor.app-navigation-common-ktx-2.7.0-50 C:\Users\karti\.gradle\caches\8.13\transforms\e772d747cdff99501b27833ccf61c1f0\transformed\navigation-common-ktx-2.7.0\res
+com.fortress.hypervisor.app-core-ktx-1.10.1-51 C:\Users\karti\.gradle\caches\8.13\transforms\e9a732a43edb2773d199cae4da54e7ea\transformed\core-ktx-1.10.1\res
+com.fortress.hypervisor.app-material3-1.1.1-52 C:\Users\karti\.gradle\caches\8.13\transforms\ec51dc1c07a292f9a6d7413ade2cca5e\transformed\material3-1.1.1\res
+com.fortress.hypervisor.app-lifecycle-viewmodel-compose-2.6.1-53 C:\Users\karti\.gradle\caches\8.13\transforms\ed8a11b21c9fa63386552e2638756ee4\transformed\lifecycle-viewmodel-compose-2.6.1\res
+com.fortress.hypervisor.app-ui-tooling-preview-release-54 C:\Users\karti\.gradle\caches\8.13\transforms\eec18c94c267e66f0dba98cab1528693\transformed\ui-tooling-preview-release\res
+com.fortress.hypervisor.app-work-runtime-2.8.1-55 C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\res
+com.fortress.hypervisor.app-ui-text-release-56 C:\Users\karti\.gradle\caches\8.13\transforms\ff949809bc9bdc3ebca7d7845729a07e\transformed\ui-text-release\res
+com.fortress.hypervisor.app-pngs-57 C:\Users\karti\Desktop\New folder (6)\app\build\generated\res\pngs\debug
+com.fortress.hypervisor.app-resValues-58 C:\Users\karti\Desktop\New folder (6)\app\build\generated\res\resValues\debug
+com.fortress.hypervisor.app-updated_navigation_xml-59 C:\Users\karti\Desktop\New folder (6)\app\build\generated\updated_navigation_xml\debug
+com.fortress.hypervisor.app-packageDebugResources-60 C:\Users\karti\Desktop\New folder (6)\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.fortress.hypervisor.app-packageDebugResources-61 C:\Users\karti\Desktop\New folder (6)\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.fortress.hypervisor.app-debug-62 C:\Users\karti\Desktop\New folder (6)\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.fortress.hypervisor.app-debug-63 C:\Users\karti\Desktop\New folder (6)\app\src\debug\res
+com.fortress.hypervisor.app-main-64 C:\Users\karti\Desktop\New folder (6)\app\src\main\res

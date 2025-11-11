@@ -1,0 +1,571 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fortress.hypervisor"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Internet access for network monitoring and updates -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:7:5-67
+12-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:8:5-79
+13-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:9:5-76
+14-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:9:22-73
+15
+16    <!-- CRITICAL: Foreground Service Permissions for Android 14+ (API 34+) -->
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:12:5-77
+17-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:12:22-74
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+18-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:13:5-89
+18-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:13:22-86
+19
+20    <!-- VPN service for network interception -->
+21    <uses-permission android:name="android.permission.BIND_VPN_SERVICE" />
+21-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:16:5-75
+21-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:16:22-72
+22
+23    <!-- Device administration for security policies -->
+24    <uses-permission android:name="android.permission.BIND_DEVICE_ADMIN" />
+24-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:19:5-76
+24-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:19:22-73
+25
+26    <!-- Accessibility service for user interaction monitoring -->
+27    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+27-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:22:5-85
+27-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:22:22-82
+28
+29    <!-- Notification listener for notification analysis -->
+30    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+30-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:25:5-93
+30-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:25:22-90
+31
+32    <!-- WiFi Security Analysis Permissions -->
+33    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+33-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:28:5-79
+33-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:28:22-76
+34    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+34-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:29:5-81
+34-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:29:22-78
+35    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+35-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:9:5-76
+35-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:9:22-73
+36    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+36-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:31:5-76
+36-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:31:22-73
+37    <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES" />
+37-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:32:5-78
+37-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:32:22-75
+38    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+38-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:33:5-89
+38-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:33:22-86
+39
+40    <!-- Packet capture and analysis -->
+41    <uses-permission android:name="android.permission.BIND_VPN_SERVICE" />
+41-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:16:5-75
+41-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:16:22-72
+42    <uses-permission android:name="android.permission.INTERNET" />
+42-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:7:5-67
+42-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:7:22-64
+43
+44    <!-- Existing permissions... -->
+45
+46
+47    <!-- Hardware monitoring -->
+48    <uses-permission android:name="android.permission.BODY_SENSORS" />
+48-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:42:5-71
+48-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:42:22-68
+49    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+49-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:43:5-85
+49-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:43:22-82
+50    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+50-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:44:5-79
+50-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:44:22-76
+51
+52    <!-- File system access for scanning -->
+53    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+53-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:47:5-80
+53-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:47:22-77
+54    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+54-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:48:5-81
+54-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:48:22-78
+55    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+55-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:49:5-82
+55-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:49:22-79
+56
+57    <!-- System-level permissions -->
+58    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+58-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:52:5-78
+58-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:52:22-75
+59    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+59-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:53:5-95
+59-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:53:22-92
+60    <uses-permission android:name="android.permission.WAKE_LOCK" />
+60-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:54:5-68
+60-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:54:22-65
+61
+62    <!-- Camera access for security monitoring -->
+63    <uses-permission android:name="android.permission.CAMERA" />
+63-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:57:5-65
+63-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:57:22-62
+64
+65    <!-- Microphone access for anomaly detection -->
+66    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+66-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:60:5-71
+66-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:60:22-68
+67
+68    <!-- Phone state for call monitoring -->
+69    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+69-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:63:5-75
+69-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:63:22-72
+70    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+70-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:64:5-81
+70-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:64:22-78
+71
+72    <!-- SMS monitoring -->
+73    <uses-permission android:name="android.permission.READ_SMS" />
+73-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:67:5-67
+73-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:67:22-64
+74    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+74-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:68:5-70
+74-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:68:22-67
+75    <uses-permission android:name="android.permission.SEND_SMS" />
+75-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:69:5-67
+75-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:69:22-64
+76
+77    <!-- Contacts access for social engineering detection -->
+78    <uses-permission android:name="android.permission.READ_CONTACTS" />
+78-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:72:5-72
+78-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:72:22-69
+79
+80    <!-- Calendar access for behavior analysis -->
+81    <uses-permission android:name="android.permission.READ_CALENDAR" />
+81-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:75:5-72
+81-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:75:22-69
+82
+83    <!-- System alert window for emergency alerts -->
+84    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+84-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:78:5-78
+84-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:78:22-75
+85
+86    <!-- Query all packages for comprehensive monitoring -->
+87    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+87-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:81:5-77
+87-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:81:22-74
+88
+89    <!-- Boot completed for auto-start -->
+90    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+90-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:84:5-81
+90-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:84:22-78
+91
+92    <!-- Vibration for alerts -->
+93    <uses-permission android:name="android.permission.VIBRATE" />
+93-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:87:5-66
+93-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:87:22-63
+94
+95    <!-- Biometric authentication -->
+96    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+96-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:90:5-72
+96-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:90:22-69
+97    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+97-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:91:5-74
+97-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:91:22-71
+98
+99    <!-- StrongBox/TEE access -->
+100    <uses-permission android:name="android.permission.USE_STRONGBOX_KEYSTORE" />
+100-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:94:5-81
+100-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:94:22-78
+101
+102    <permission
+102-->[androidx.core:core:1.10.1] C:\Users\karti\.gradle\caches\8.13\transforms\dc4a89fbdaa5d7e28fc8036f8991380a\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+103        android:name="com.fortress.hypervisor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+103-->[androidx.core:core:1.10.1] C:\Users\karti\.gradle\caches\8.13\transforms\dc4a89fbdaa5d7e28fc8036f8991380a\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+104        android:protectionLevel="signature" />
+104-->[androidx.core:core:1.10.1] C:\Users\karti\.gradle\caches\8.13\transforms\dc4a89fbdaa5d7e28fc8036f8991380a\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+105
+106    <uses-permission android:name="com.fortress.hypervisor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+106-->[androidx.core:core:1.10.1] C:\Users\karti\.gradle\caches\8.13\transforms\dc4a89fbdaa5d7e28fc8036f8991380a\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+106-->[androidx.core:core:1.10.1] C:\Users\karti\.gradle\caches\8.13\transforms\dc4a89fbdaa5d7e28fc8036f8991380a\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+107
+108    <application
+108-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:96:5-156:19
+109        android:name="com.fortress.hypervisor.HypervisorApplication"
+109-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:97:9-46
+110        android:allowBackup="false"
+110-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:98:9-36
+111        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+111-->[androidx.core:core:1.10.1] C:\Users\karti\.gradle\caches\8.13\transforms\dc4a89fbdaa5d7e28fc8036f8991380a\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+112        android:dataExtractionRules="@xml/data_extraction_rules"
+112-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:99:9-65
+113        android:debuggable="true"
+114        android:extractNativeLibs="false"
+115        android:fullBackupContent="false"
+115-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:100:9-42
+116        android:hardwareAccelerated="true"
+116-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:107:9-43
+117        android:icon="@mipmap/ic_launcher"
+117-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:101:9-43
+118        android:label="@string/app_name"
+118-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:102:9-41
+119        android:largeHeap="true"
+119-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:106:9-33
+120        android:networkSecurityConfig="@xml/network_security_config"
+120-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:105:9-69
+121        android:theme="@style/Theme.FortressHypervisor"
+121-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:103:9-56
+122        android:usesCleartextTraffic="false" >
+122-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:104:9-45
+123
+124        <!-- Main Activity -->
+125        <activity
+125-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:111:9-121:20
+126            android:name="com.fortress.hypervisor.MainActivity"
+126-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:112:13-41
+127            android:exported="true"
+127-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:113:13-36
+128            android:launchMode="singleTop"
+128-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:114:13-43
+129            android:screenOrientation="portrait"
+129-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:115:13-49
+130            android:theme="@style/Theme.FortressHypervisor.NoActionBar" >
+130-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:116:13-72
+131            <intent-filter>
+131-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:117:13-120:29
+132                <action android:name="android.intent.action.MAIN" />
+132-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:118:17-69
+132-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:118:25-66
+133
+134                <category android:name="android.intent.category.LAUNCHER" />
+134-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:119:17-77
+134-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:119:27-74
+135            </intent-filter>
+136        </activity>
+137
+138        <!-- Security Monitoring Service -->
+139        <service
+139-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:124:9-131:19
+140            android:name="com.fortress.hypervisor.service.SecurityMonitoringService"
+140-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:125:13-62
+141            android:exported="false"
+141-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:126:13-37
+142            android:foregroundServiceType="specialUse" >
+142-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:127:13-55
+143            <property
+143-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:128:13-130:55
+144                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+144-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:129:17-76
+145                android:value="security_monitoring" />
+145-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:130:17-52
+146        </service>
+147
+148        <!-- VPN Service for Network Interception -->
+149        <service
+149-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:134:9-141:19
+150            android:name="com.fortress.hypervisor.service.HypervisorVpnService"
+150-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:135:13-57
+151            android:exported="true"
+151-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:137:13-36
+152            android:permission="android.permission.BIND_VPN_SERVICE" >
+152-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:136:13-69
+153            <intent-filter>
+153-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:138:13-140:29
+154                <action android:name="android.net.VpnService" />
+154-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:139:17-65
+154-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:139:25-62
+155            </intent-filter>
+156        </service>
+157
+158        <!-- Device Admin Receiver -->
+159        <receiver
+159-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:144:9-154:20
+160            android:name="com.fortress.hypervisor.security.AntiTamperingService$FortressDeviceAdminReceiver"
+160-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:145:13-86
+161            android:exported="true"
+161-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:146:13-36
+162            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+162-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:147:13-70
+163            <intent-filter>
+163-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:148:13-150:29
+164                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+164-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:149:17-82
+164-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:149:25-79
+165            </intent-filter>
+166
+167            <meta-data
+167-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:151:13-153:65
+168                android:name="android.app.device_admin"
+168-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:152:17-56
+169                android:resource="@xml/device_admin_policies" />
+169-->C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:153:17-62
+170        </receiver>
+171
+172        <provider
+172-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:29:9-37:20
+173            android:name="androidx.startup.InitializationProvider"
+173-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:30:13-67
+174            android:authorities="com.fortress.hypervisor.androidx-startup"
+174-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:31:13-68
+175            android:exported="false" >
+175-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:32:13-37
+176            <meta-data
+176-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:34:13-36:52
+177                android:name="androidx.work.WorkManagerInitializer"
+177-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:35:17-68
+178                android:value="androidx.startup" />
+178-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:36:17-49
+179            <meta-data
+179-->[androidx.emoji2:emoji2:1.4.0] C:\Users\karti\.gradle\caches\8.13\transforms\d25aedf59cb3999c3581e017b98a8b92\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+180                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+180-->[androidx.emoji2:emoji2:1.4.0] C:\Users\karti\.gradle\caches\8.13\transforms\d25aedf59cb3999c3581e017b98a8b92\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+181                android:value="androidx.startup" />
+181-->[androidx.emoji2:emoji2:1.4.0] C:\Users\karti\.gradle\caches\8.13\transforms\d25aedf59cb3999c3581e017b98a8b92\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+182            <meta-data
+182-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\karti\.gradle\caches\8.13\transforms\243cc8fdaaabc4abc4a08b4256db9dda\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+183                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+183-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\karti\.gradle\caches\8.13\transforms\243cc8fdaaabc4abc4a08b4256db9dda\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+184                android:value="androidx.startup" />
+184-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\karti\.gradle\caches\8.13\transforms\243cc8fdaaabc4abc4a08b4256db9dda\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+185            <meta-data
+185-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+186                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+186-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+187                android:value="androidx.startup" />
+187-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+188        </provider>
+189
+190        <service
+190-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:39:9-45:35
+191            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+191-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:40:13-88
+192            android:directBootAware="false"
+192-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:41:13-44
+193            android:enabled="@bool/enable_system_alarm_service_default"
+193-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:42:13-72
+194            android:exported="false" />
+194-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:43:13-37
+195        <service
+195-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:46:9-52:35
+196            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+196-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:47:13-84
+197            android:directBootAware="false"
+197-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:48:13-44
+198            android:enabled="@bool/enable_system_job_service_default"
+198-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:49:13-70
+199            android:exported="true"
+199-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:50:13-36
+200            android:permission="android.permission.BIND_JOB_SERVICE" />
+200-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:51:13-69
+201        <service
+201-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:53:9-59:35
+202            android:name="androidx.work.impl.foreground.SystemForegroundService"
+202-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:54:13-81
+203            android:directBootAware="false"
+203-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:55:13-44
+204            android:enabled="@bool/enable_system_foreground_service_default"
+204-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:56:13-77
+205            android:exported="false" />
+205-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:57:13-37
+206
+207        <receiver
+207-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:61:9-66:35
+208            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+208-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:62:13-88
+209            android:directBootAware="false"
+209-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:63:13-44
+210            android:enabled="true"
+210-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:64:13-35
+211            android:exported="false" />
+211-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:65:13-37
+212        <receiver
+212-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:67:9-77:20
+213            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+213-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:68:13-106
+214            android:directBootAware="false"
+214-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:69:13-44
+215            android:enabled="false"
+215-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:70:13-36
+216            android:exported="false" >
+216-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:71:13-37
+217            <intent-filter>
+217-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:73:13-76:29
+218                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+218-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:17-87
+218-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:25-84
+219                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+219-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:17-90
+219-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:25-87
+220            </intent-filter>
+221        </receiver>
+222        <receiver
+222-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:78:9-88:20
+223            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+223-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:79:13-104
+224            android:directBootAware="false"
+224-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:80:13-44
+225            android:enabled="false"
+225-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:81:13-36
+226            android:exported="false" >
+226-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:82:13-37
+227            <intent-filter>
+227-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:84:13-87:29
+228                <action android:name="android.intent.action.BATTERY_OKAY" />
+228-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:17-77
+228-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:25-74
+229                <action android:name="android.intent.action.BATTERY_LOW" />
+229-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:17-76
+229-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:25-73
+230            </intent-filter>
+231        </receiver>
+232        <receiver
+232-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:89:9-99:20
+233            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+233-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:90:13-104
+234            android:directBootAware="false"
+234-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:91:13-44
+235            android:enabled="false"
+235-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:92:13-36
+236            android:exported="false" >
+236-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:93:13-37
+237            <intent-filter>
+237-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:95:13-98:29
+238                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+238-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:17-83
+238-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:25-80
+239                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+239-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:17-82
+239-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:25-79
+240            </intent-filter>
+241        </receiver>
+242        <receiver
+242-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:100:9-109:20
+243            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+243-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:101:13-103
+244            android:directBootAware="false"
+244-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:102:13-44
+245            android:enabled="false"
+245-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:103:13-36
+246            android:exported="false" >
+246-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:104:13-37
+247            <intent-filter>
+247-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:106:13-108:29
+248                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+248-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:17-79
+248-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:25-76
+249            </intent-filter>
+250        </receiver>
+251        <receiver
+251-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:110:9-121:20
+252            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+252-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:111:13-88
+253            android:directBootAware="false"
+253-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:112:13-44
+254            android:enabled="false"
+254-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:113:13-36
+255            android:exported="false" >
+255-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:114:13-37
+256            <intent-filter>
+256-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:116:13-120:29
+257                <action android:name="android.intent.action.BOOT_COMPLETED" />
+257-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:117:17-79
+257-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:117:25-76
+258                <action android:name="android.intent.action.TIME_SET" />
+258-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:17-73
+258-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:25-70
+259                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+259-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:17-81
+259-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:25-78
+260            </intent-filter>
+261        </receiver>
+262        <receiver
+262-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:122:9-131:20
+263            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+263-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:123:13-99
+264            android:directBootAware="false"
+264-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:124:13-44
+265            android:enabled="@bool/enable_system_alarm_service_default"
+265-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:125:13-72
+266            android:exported="false" >
+266-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:126:13-37
+267            <intent-filter>
+267-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:128:13-130:29
+268                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+268-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:17-98
+268-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:25-95
+269            </intent-filter>
+270        </receiver>
+271        <receiver
+271-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:132:9-142:20
+272            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+272-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:133:13-78
+273            android:directBootAware="false"
+273-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:134:13-44
+274            android:enabled="true"
+274-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:135:13-35
+275            android:exported="true"
+275-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:136:13-36
+276            android:permission="android.permission.DUMP" >
+276-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:137:13-57
+277            <intent-filter>
+277-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:139:13-141:29
+278                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+278-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:17-88
+278-->[androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:25-85
+279            </intent-filter>
+280        </receiver>
+281
+282        <service
+282-->[androidx.room:room-runtime:2.5.0] C:\Users\karti\.gradle\caches\8.13\transforms\7c1ef197d9b0bd358da97396e2eb05bd\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+283            android:name="androidx.room.MultiInstanceInvalidationService"
+283-->[androidx.room:room-runtime:2.5.0] C:\Users\karti\.gradle\caches\8.13\transforms\7c1ef197d9b0bd358da97396e2eb05bd\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+284            android:directBootAware="true"
+284-->[androidx.room:room-runtime:2.5.0] C:\Users\karti\.gradle\caches\8.13\transforms\7c1ef197d9b0bd358da97396e2eb05bd\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+285            android:exported="false" />
+285-->[androidx.room:room-runtime:2.5.0] C:\Users\karti\.gradle\caches\8.13\transforms\7c1ef197d9b0bd358da97396e2eb05bd\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+286
+287        <receiver
+287-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+288            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+288-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+289            android:directBootAware="false"
+289-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+290            android:enabled="true"
+290-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+291            android:exported="true"
+291-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+292            android:permission="android.permission.DUMP" >
+292-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+293            <intent-filter>
+293-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+294                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+294-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+294-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+295            </intent-filter>
+296            <intent-filter>
+296-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+297                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+297-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+297-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+298            </intent-filter>
+299            <intent-filter>
+299-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+300                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+300-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+300-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+301            </intent-filter>
+302            <intent-filter>
+302-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+303                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+303-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+303-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\2fc35f11facdc6ef5a3586b3a7d961cb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+304            </intent-filter>
+305        </receiver>
+306    </application>
+307
+308</manifest>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.FortressHypervisor" parent="Theme.AppCompat">
+        <!-- Primary brand color -->
+        <item name="android:colorPrimary">@android:color/holo_red_dark</item>
+        <item name="android:colorAccent">@android:color/holo_orange_dark</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@android:color/holo_red_light</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Security Alert Styles -->
+    <style name="SecurityAlertCritical">
+        <item name="android:background">@android:color/holo_red_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SecurityAlertHigh">
+        <item name="android:background">@android:color/holo_orange_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="SecurityAlertMedium">
+        <item name="android:background">@android:color/holo_blue_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="SecurityAlertLow">
+        <item name="android:background">@android:color/holo_green_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="EmergencyButton">
+        <item name="android:background">@android:color/holo_red_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="ActionButton">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+    </style>
+
+    <!-- Text Styles -->
+    <style name="ThreatLevelText">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="StatusText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+    <!-- No Action Bar Theme -->
+    <style name="Theme.FortressHypervisor.NoActionBar" parent="Theme.FortressHypervisor">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

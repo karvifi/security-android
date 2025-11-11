@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fortress Hypervisor</string>
+
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_description">Fortress Hypervisor monitors user interactions and system events for security analysis. This service helps detect suspicious behavior and potential security threats.</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_security">Security Alerts</string>
+    <string name="notification_channel_security_description">Critical security alerts and threat notifications</string>
+    <string name="notification_channel_monitoring">System Monitoring</string>
+    <string name="notification_channel_monitoring_description">System status and monitoring updates</string>
+
+    <!-- Service Names -->
+    <string name="vpn_service_name">Fortress Hypervisor VPN</string>
+    <string name="accessibility_service_name">Fortress Hypervisor Accessibility</string>
+    <string name="notification_service_name">Fortress Hypervisor Notifications</string>
+    <string name="device_admin_name">Fortress Hypervisor Device Admin</string>
+
+    <!-- Alert Messages -->
+    <string name="alert_critical_threat">Critical Security Threat Detected</string>
+    <string name="alert_high_threat">High Security Risk</string>
+    <string name="alert_medium_threat">Medium Security Concern</string>
+    <string name="alert_low_threat">Low Security Notice</string>
+
+    <!-- UI Labels -->
+    <string name="label_system_status">System Status</string>
+    <string name="label_threat_level">Threat Level</string>
+    <string name="label_active_guards">Active Guards</string>
+    <string name="label_recent_events">Recent Events</string>
+    <string name="label_security_metrics">Security Metrics</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Security Settings</string>
+    <string name="settings_services">Service Configuration</string>
+    <string name="settings_guards">Guard Configuration</string>
+    <string name="settings_ml">ML Detection Settings</string>
+    <string name="settings_advanced">Advanced Settings</string>
+
+    <!-- Actions -->
+    <string name="action_emergency_lockdown">Emergency Lockdown</string>
+    <string name="action_system_scan">System Scan</string>
+    <string name="action_view_logs">View Security Logs</string>
+    <string name="action_generate_report">Generate Report</string>
+
+    <!-- Error Messages -->
+    <string name="error_service_not_available">Service not available</string>
+    <string name="error_permission_denied">Permission denied</string>
+    <string name="error_initialization_failed">Initialization failed</string>
+    <string name="error_network_unavailable">Network unavailable</string>
+
+    <!-- Status Messages -->
+    <string name="status_protecting">Protecting your device</string>
+    <string name="status_scanning">Scanning for threats</string>
+    <string name="status_lockdown_active">Lockdown active</string>
+    <string name="status_services_running">All services running</string>
+</resources>
