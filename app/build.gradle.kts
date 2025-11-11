@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.fortress.hypervisor"
-    compileSdk = 35
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.fortress.hypervisor"
         minSdk = 26
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 

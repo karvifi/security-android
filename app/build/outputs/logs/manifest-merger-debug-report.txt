@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:2:1-158:12
-INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:2:1-158:12
-INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:2:1-158:12
-INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:2:1-158:12
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:2:1-171:12
+INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:2:1-171:12
+INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:2:1-171:12
+INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:2:1-171:12
 MERGED from [androidx.navigation:navigation-common:2.7.0] C:\Users\karti\.gradle\caches\8.13\transforms\dde305a3312d88f980580443ea347347\transformed\navigation-common-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.7.0] C:\Users\karti\.gradle\caches\8.13\transforms\1454cb41bae5a602621ea5e4d7797903\transformed\navigation-runtime-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.0] C:\Users\karti\.gradle\caches\8.13\transforms\e772d747cdff99501b27833ccf61c1f0\transformed\navigation-common-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
@@ -253,8 +253,8 @@ ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xm
 	android:name
 		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:94:22-78
 application
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:96:5-156:19
-INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:96:5-156:19
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:96:5-169:19
+INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:96:5-169:19
 MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:28:5-143:19
 MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:28:5-143:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\karti\.gradle\caches\8.13\transforms\d25aedf59cb3999c3581e017b98a8b92\transformed\emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
@@ -321,54 +321,74 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:119:17-77
 	android:name
 		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:119:27-74
-service#com.fortress.hypervisor.service.SecurityMonitoringService
+service#com.fortress.hypervisor.HypervisorVpnService
 ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:124:9-131:19
 	android:exported
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:126:13-37
-	android:foregroundServiceType
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:127:13-55
-	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:125:13-62
-property#android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:128:13-130:55
-	android:value
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:130:17-52
-	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:129:17-76
-service#com.fortress.hypervisor.service.HypervisorVpnService
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:134:9-141:19
-	android:exported
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:137:13-36
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:127:13-36
 	android:permission
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:136:13-69
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:126:13-69
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:135:13-57
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:125:13-49
 intent-filter#action:name:android.net.VpnService
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:138:13-140:29
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:128:13-130:29
 action#android.net.VpnService
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:139:17-65
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:129:17-65
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:139:25-62
-receiver#com.fortress.hypervisor.security.AntiTamperingService$FortressDeviceAdminReceiver
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:144:9-154:20
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:129:25-62
+service#com.fortress.hypervisor.HypervisorAccessibilityService
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:134:9-144:19
 	android:exported
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:146:13-36
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:137:13-37
 	android:permission
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:147:13-70
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:136:13-79
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:145:13-86
-intent-filter#action:name:android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:148:13-150:29
-action#android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:149:17-82
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:135:13-59
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:138:13-140:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:139:17-92
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:149:25-79
-meta-data#android.app.device_admin
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:151:13-153:65
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:139:25-89
+meta-data#android.accessibilityservice
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:141:13-143:72
 	android:resource
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:153:17-62
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:143:17-69
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:152:17-56
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:142:17-60
+service#com.fortress.hypervisor.HypervisorNotificationListener
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:147:9-154:19
+	android:exported
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:150:13-37
+	android:permission
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:149:13-87
+	android:name
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:148:13-59
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:151:13-153:29
+action#android.service.notification.NotificationListenerService
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:152:17-99
+	android:name
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:152:25-96
+receiver#com.fortress.hypervisor.HypervisorDeviceAdmin
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:157:9-167:20
+	android:exported
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:159:13-36
+	android:permission
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:160:13-70
+	android:name
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:158:13-50
+intent-filter#action:name:android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:161:13-163:29
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:162:17-82
+	android:name
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:162:25-79
+meta-data#android.app.device_admin
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:164:13-166:65
+	android:resource
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:166:17-62
+	android:name
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:165:17-56
 uses-sdk
 INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml

