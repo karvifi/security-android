@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:2:1-171:12
-INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:2:1-171:12
-INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:2:1-171:12
-INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:2:1-171:12
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:2:1-166:12
+INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:2:1-166:12
+INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:2:1-166:12
+INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:2:1-166:12
 MERGED from [androidx.navigation:navigation-common:2.7.0] C:\Users\karti\.gradle\caches\8.13\transforms\dde305a3312d88f980580443ea347347\transformed\navigation-common-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.7.0] C:\Users\karti\.gradle\caches\8.13\transforms\1454cb41bae5a602621ea5e4d7797903\transformed\navigation-runtime-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.0] C:\Users\karti\.gradle\caches\8.13\transforms\e772d747cdff99501b27833ccf61c1f0\transformed\navigation-common-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
@@ -58,6 +58,7 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1] C:\Users\kart
 MERGED from [androidx.compose.ui:ui-android:1.5.0] C:\Users\karti\.gradle\caches\8.13\transforms\5b0c84c0a4eb8556b89d966eb3197e11\transformed\ui-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity-ktx:1.7.2] C:\Users\karti\.gradle\caches\8.13\transforms\35a4f458749a9d30b7eace96b59fb375\transformed\activity-ktx-1.7.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-compose:1.7.2] C:\Users\karti\.gradle\caches\8.13\transforms\00a2fcd155fcdb812d8eff9e3c7158bc\transformed\activity-compose-1.7.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.timber:timber:5.0.1] C:\Users\karti\.gradle\caches\8.13\transforms\7bfeb20caf14571bb69ccde990102783\transformed\timber-5.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\karti\.gradle\caches\8.13\transforms\7c1ef197d9b0bd358da97396e2eb05bd\transformed\room-runtime-2.5.0\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\6a811ab32530f205529170638bd8b2fd\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.0] C:\Users\karti\.gradle\caches\8.13\transforms\20a4028012c5628ce7bfb7c3a9e0f6bb\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
@@ -133,128 +134,128 @@ ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xm
 	android:name
 		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:29:22-78
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:31:5-76
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:30:5-76
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:31:22-73
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:30:22-73
 uses-permission#android.permission.NEARBY_WIFI_DEVICES
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:32:5-78
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:31:5-78
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:32:22-75
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:31:22-75
 uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:33:5-89
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:32:5-89
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:33:22-86
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:32:22-86
 uses-permission#android.permission.BODY_SENSORS
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:42:5-71
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:37:5-71
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:42:22-68
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:37:22-68
 uses-permission#android.permission.HIGH_SAMPLING_RATE_SENSORS
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:43:5-85
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:38:5-85
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:43:22-82
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:38:22-82
 uses-permission#android.permission.ACTIVITY_RECOGNITION
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:44:5-79
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:39:5-79
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:44:22-76
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:39:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:47:5-80
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:42:5-80
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:47:22-77
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:42:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:48:5-81
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:43:5-81
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:48:22-78
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:43:22-78
 uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:49:5-82
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:44:5-82
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:49:22-79
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:44:22-79
 uses-permission#android.permission.PACKAGE_USAGE_STATS
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:52:5-78
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:47:5-78
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:52:22-75
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:47:22-75
 uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:53:5-95
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:48:5-95
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:53:22-92
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:48:22-92
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:54:5-68
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:49:5-68
 MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:23:5-68
 MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:23:5-68
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:54:22-65
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:49:22-65
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:57:5-65
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:52:5-65
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:57:22-62
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:52:22-62
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:60:5-71
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:55:5-71
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:60:22-68
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:55:22-68
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:63:5-75
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:58:5-75
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:63:22-72
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:58:22-72
 uses-permission#android.permission.PROCESS_OUTGOING_CALLS
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:64:5-81
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:59:5-81
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:64:22-78
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:59:22-78
 uses-permission#android.permission.READ_SMS
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:67:5-67
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:62:5-67
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:67:22-64
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:62:22-64
 uses-permission#android.permission.RECEIVE_SMS
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:68:5-70
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:63:5-70
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:68:22-67
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:63:22-67
 uses-permission#android.permission.SEND_SMS
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:69:5-67
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:64:5-67
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:69:22-64
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:64:22-64
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:72:5-72
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:67:5-72
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:72:22-69
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:67:22-69
 uses-permission#android.permission.READ_CALENDAR
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:75:5-72
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:70:5-72
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:75:22-69
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:70:22-69
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:78:5-78
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:73:5-78
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:78:22-75
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:73:22-75
 uses-permission#android.permission.QUERY_ALL_PACKAGES
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:81:5-77
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:76:5-77
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:81:22-74
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:76:22-74
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:84:5-81
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:79:5-81
 MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:25:5-81
 MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:25:5-81
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:84:22-78
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:79:22-78
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:87:5-66
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:82:5-66
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:87:22-63
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:82:22-63
 uses-permission#android.permission.USE_BIOMETRIC
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:90:5-72
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:85:5-72
 MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\karti\.gradle\caches\8.13\transforms\8cf122e7d9681916449955f56be7f897\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
 MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\karti\.gradle\caches\8.13\transforms\8cf122e7d9681916449955f56be7f897\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:90:22-69
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:85:22-69
 uses-permission#android.permission.USE_FINGERPRINT
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:91:5-74
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:86:5-74
 MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\karti\.gradle\caches\8.13\transforms\8cf122e7d9681916449955f56be7f897\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
 MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\karti\.gradle\caches\8.13\transforms\8cf122e7d9681916449955f56be7f897\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:91:22-71
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:86:22-71
 uses-permission#android.permission.USE_STRONGBOX_KEYSTORE
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:94:5-81
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:89:5-81
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:94:22-78
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:89:22-78
 application
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:96:5-169:19
-INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:96:5-169:19
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:91:5-164:19
+INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:91:5-164:19
 MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:28:5-143:19
 MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\karti\.gradle\caches\8.13\transforms\f269d589db34c72393b0c43866f3ec15\transformed\work-runtime-2.8.1\AndroidManifest.xml:28:5-143:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\karti\.gradle\caches\8.13\transforms\d25aedf59cb3999c3581e017b98a8b92\transformed\emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
@@ -263,6 +264,8 @@ MERGED from [androidx.core:core:1.10.1] C:\Users\karti\.gradle\caches\8.13\trans
 MERGED from [androidx.core:core:1.10.1] C:\Users\karti\.gradle\caches\8.13\transforms\dc4a89fbdaa5d7e28fc8036f8991380a\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\karti\.gradle\caches\8.13\transforms\243cc8fdaaabc4abc4a08b4256db9dda\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\karti\.gradle\caches\8.13\transforms\243cc8fdaaabc4abc4a08b4256db9dda\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [com.jakewharton.timber:timber:5.0.1] C:\Users\karti\.gradle\caches\8.13\transforms\7bfeb20caf14571bb69ccde990102783\transformed\timber-5.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:5.0.1] C:\Users\karti\.gradle\caches\8.13\transforms\7bfeb20caf14571bb69ccde990102783\transformed\timber-5.0.1\AndroidManifest.xml:7:5-20
 MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\karti\.gradle\caches\8.13\transforms\7c1ef197d9b0bd358da97396e2eb05bd\transformed\room-runtime-2.5.0\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\karti\.gradle\caches\8.13\transforms\7c1ef197d9b0bd358da97396e2eb05bd\transformed\room-runtime-2.5.0\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\karti\.gradle\caches\8.13\transforms\0e65775a472b4f50cf6287683f45833a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
@@ -274,121 +277,121 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\karti\.gradle\cach
 	android:extractNativeLibs
 		INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml
 	android:largeHeap
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:106:9-33
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:101:9-33
 	android:icon
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:101:9-43
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:96:9-43
 	android:networkSecurityConfig
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:105:9-69
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:100:9-69
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.10.1] C:\Users\karti\.gradle\caches\8.13\transforms\dc4a89fbdaa5d7e28fc8036f8991380a\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:102:9-41
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:97:9-41
 	android:hardwareAccelerated
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:107:9-43
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:102:9-43
 	android:fullBackupContent
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:100:9-42
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:95:9-42
 	tools:targetApi
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:108:9-29
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:103:9-29
 	android:allowBackup
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:98:9-36
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:93:9-36
 	android:theme
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:103:9-56
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:98:9-56
 	android:dataExtractionRules
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:99:9-65
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:94:9-65
 	android:usesCleartextTraffic
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:104:9-45
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:99:9-45
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:97:9-46
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:92:9-46
 activity#com.fortress.hypervisor.MainActivity
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:111:9-121:20
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:106:9-116:20
 	android:screenOrientation
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:115:13-49
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:110:13-49
 	android:launchMode
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:114:13-43
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:109:13-43
 	android:exported
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:113:13-36
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:108:13-36
 	android:theme
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:116:13-72
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:111:13-72
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:112:13-41
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:107:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:117:13-120:29
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:112:13-115:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:118:17-69
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:113:17-69
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:118:25-66
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:113:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:119:17-77
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:114:17-77
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:119:27-74
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:114:27-74
 service#com.fortress.hypervisor.HypervisorVpnService
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:124:9-131:19
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:119:9-126:19
 	android:exported
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:127:13-36
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:122:13-36
 	android:permission
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:126:13-69
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:121:13-69
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:125:13-49
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:120:13-49
 intent-filter#action:name:android.net.VpnService
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:128:13-130:29
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:123:13-125:29
 action#android.net.VpnService
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:129:17-65
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:124:17-65
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:129:25-62
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:124:25-62
 service#com.fortress.hypervisor.HypervisorAccessibilityService
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:134:9-144:19
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:129:9-139:19
 	android:exported
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:137:13-37
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:132:13-37
 	android:permission
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:136:13-79
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:131:13-79
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:135:13-59
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:130:13-59
 intent-filter#action:name:android.accessibilityservice.AccessibilityService
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:138:13-140:29
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:133:13-135:29
 action#android.accessibilityservice.AccessibilityService
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:139:17-92
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:134:17-92
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:139:25-89
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:134:25-89
 meta-data#android.accessibilityservice
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:141:13-143:72
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:136:13-138:72
 	android:resource
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:143:17-69
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:138:17-69
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:142:17-60
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:137:17-60
 service#com.fortress.hypervisor.HypervisorNotificationListener
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:147:9-154:19
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:142:9-149:19
 	android:exported
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:150:13-37
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:145:13-37
 	android:permission
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:149:13-87
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:144:13-87
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:148:13-59
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:143:13-59
 intent-filter#action:name:android.service.notification.NotificationListenerService
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:151:13-153:29
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:146:13-148:29
 action#android.service.notification.NotificationListenerService
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:152:17-99
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:147:17-99
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:152:25-96
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:147:25-96
 receiver#com.fortress.hypervisor.HypervisorDeviceAdmin
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:157:9-167:20
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:152:9-162:20
 	android:exported
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:159:13-36
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:154:13-36
 	android:permission
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:160:13-70
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:155:13-70
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:158:13-50
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:153:13-50
 intent-filter#action:name:android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:161:13-163:29
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:156:13-158:29
 action#android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:162:17-82
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:157:17-82
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:162:25-79
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:157:25-79
 meta-data#android.app.device_admin
-ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:164:13-166:65
+ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:159:13-161:65
 	android:resource
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:166:17-62
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:161:17-62
 	android:name
-		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:165:17-56
+		ADDED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml:160:17-56
 uses-sdk
 INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\karti\Desktop\New folder (6)\app\src\main\AndroidManifest.xml
@@ -501,6 +504,8 @@ MERGED from [androidx.activity:activity-ktx:1.7.2] C:\Users\karti\.gradle\caches
 MERGED from [androidx.activity:activity-ktx:1.7.2] C:\Users\karti\.gradle\caches\8.13\transforms\35a4f458749a9d30b7eace96b59fb375\transformed\activity-ktx-1.7.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity-compose:1.7.2] C:\Users\karti\.gradle\caches\8.13\transforms\00a2fcd155fcdb812d8eff9e3c7158bc\transformed\activity-compose-1.7.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity-compose:1.7.2] C:\Users\karti\.gradle\caches\8.13\transforms\00a2fcd155fcdb812d8eff9e3c7158bc\transformed\activity-compose-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.timber:timber:5.0.1] C:\Users\karti\.gradle\caches\8.13\transforms\7bfeb20caf14571bb69ccde990102783\transformed\timber-5.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.timber:timber:5.0.1] C:\Users\karti\.gradle\caches\8.13\transforms\7bfeb20caf14571bb69ccde990102783\transformed\timber-5.0.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\karti\.gradle\caches\8.13\transforms\7c1ef197d9b0bd358da97396e2eb05bd\transformed\room-runtime-2.5.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\karti\.gradle\caches\8.13\transforms\7c1ef197d9b0bd358da97396e2eb05bd\transformed\room-runtime-2.5.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\karti\.gradle\caches\8.13\transforms\6a811ab32530f205529170638bd8b2fd\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
