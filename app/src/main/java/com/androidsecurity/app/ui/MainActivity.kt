@@ -1,9 +1,12 @@
 package com.androidsecurity.app.ui
 
+import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -139,35 +142,72 @@ fun SecurityApp() {
             
         } else {
             // Home Screen
-            Card(
-                modifier = Modifier.fillMaxWidth(0.8f)
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(16.dp)
+                    .verticalScroll(rememberScrollState()),
+                horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                Column(
-                    modifier = Modifier.padding(16.dp),
-                    horizontalAlignment = Alignment.CenterHorizontally
+                Text(
+                    "Android Security Dashboard",
+                    style = MaterialTheme.typography.headlineMedium
+                )
+                
+                Spacer(modifier = Modifier.height(16.dp))
+                
+                Card(
+                    modifier = Modifier.fillMaxWidth()
                 ) {
-                    Text(
-                        "✅ Connected to Firebase",
-                        style = MaterialTheme.typography.bodyLarge,
-                        color = Color.Green
-                    )
-                    
-                    Spacer(modifier = Modifier.height(8.dp))
-                    
-                    Text(
-                        "Email: ${auth.currentUser?.email}",
-                        style = MaterialTheme.typography.bodySmall
-                    )
-                    
-                    Spacer(modifier = Modifier.height(16.dp))
-                    
-                    Button(onClick = {
-                        auth.signOut()
-                        isLoggedIn = false
-                        message = "Signed out"
-                    }) {
-                        Text("Sign Out")
+                    Column(
+                        modifier = Modifier.padding(16.dp)
+                    ) {
+                        Text(
+                            "✅ Connected to Firebase",
+                            style = MaterialTheme.typography.bodyLarge,
+                            color = Color.Green
+                        )
+                        
+                        Spacer(modifier = Modifier.height(8.dp))
+                        
+                        Text(
+                            "Email: ${auth.currentUser?.email}",
+                            style = MaterialTheme.typography.bodySmall
+                        )
                     }
+                }
+                
+                Spacer(modifier = Modifier.height(16.dp))
+                
+                Card(
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Column(
+                        modifier = Modifier.padding(16.dp)
+                    ) {
+                        Text(
+                            "Device Information",
+                            style = MaterialTheme.typography.titleMedium
+                        )
+                        
+                        Spacer(modifier = Modifier.height(8.dp))
+                        
+                        Text("Model: ${Build.MODEL}")
+                        Text("Manufacturer: ${Build.MANUFACTURER}")
+                        Text("Android Version: ${Build.VERSION.RELEASE} (API ${Build.VERSION.SDK_INT})")
+                        Text("Security Patch: ${Build.VERSION.SECURITY_PATCH}")
+                        Text("Build ID: ${Build.ID}")
+                    }
+                }
+                
+                Spacer(modifier = Modifier.height(16.dp))
+                
+                Button(onClick = {
+                    auth.signOut()
+                    isLoggedIn = false
+                    message = "Signed out"
+                }) {
+                    Text("Sign Out")
                 }
             }
         }
