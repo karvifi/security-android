@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+*.apk
+*.ap_
+*.dex
+
+# Android Studio
+.idea/
+*.iml
+local.properties
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Firebase
+google-services.json
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
