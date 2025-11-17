@@ -5,6 +5,8 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+  schedule:
+    - cron: '0 0 * * 0'  # Weekly on Sunday
 
 jobs:
   build:
@@ -44,6 +46,10 @@ jobs:
 
     - name: Run lint
       run: ./gradlew lint
+
+    - name: Check for Dependency Updates
+      run: ./gradlew dependencyUpdates --console=plain | head -20
+      continue-on-error: true
 
     - name: Build APKs
       run: ./gradlew assembleDebug assembleRelease
